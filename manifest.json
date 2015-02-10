@@ -1,0 +1,16 @@
+{
+    "name": "ComicSansify",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Comic Sansify all the pages",
+    "permissions": [
+      "tabs"
+    ],
+    "content_scripts": [{
+        "js": [
+            "comic.js"
+        ],
+        "run_at": "document_end",
+        "matches": ["http://*/*","https://*/*"]
+    }]
+}

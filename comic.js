@@ -1,0 +1,1 @@
+document.body.innerHTML += '<style>* { font-family: "Comic Sans MS";} p:nth-child(odd) {color: pink;} p:nth-child(even) {color: red;} li:nth-child(even) {color: orange;}</style>';
